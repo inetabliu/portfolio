@@ -13,17 +13,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
   <title>inetabliu.dev</title>
 </head>
 
 <body>
+
   <nav>
     <ul>
       <li><a class="nav-link" href="#contact">Contact</a></li>
-      <li><a class="nav-link" href="#home">Home</a></li>
       <li><a class="nav-link" href="#about">About</a></li>
-      <li><a class="nav-link" href="#projects">Past projects</a></li>
+      <li><a class="nav-link" href="#projects">Projects</a></li>
+      <li><a class="nav-link" href="#technologies">Technologies</a></li>
+
+
 
 
     </ul>
@@ -32,7 +37,17 @@
 
 
   <main>
-    <section id="about">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="typewriter">
+        <h1 class="text-break">INETA BLIUDZIUTE</h1>
+        <h3>Software Developer</h3>
+      </div>
+
+      <!-- ABOUT -->
+    </section>
+    <section id="about" class="container">
+
       <div class="triangle"></div>
       <h1 class="animate__animated animate__slideInDown">About Me</h1>
       <p>I come from a strong background in customer facing roles within the hospitality industry. During my career, one
@@ -45,61 +60,152 @@
         as I do.</p>
     </section>
 
-    <section id="projects">
-      <div class="triangle-bottom-right"></div>
-      <h1 class="animate__animated animate__slideInDown">Projects</h1>
-      <div class="flex-container">
-        <div class="card">
+    <!-- PROJECTS -->
+    <section id="projects" class="container">
+      <div>
+        <div class="triangle-bottom-right"></div>
+        <h1 class="animate__animated animate__slideInDown">Projects</h1>
 
-          <div class="container">
-            <h3>Tails & Whiskers</h3>
-            <p>MERN Stack App</p>
+      </div>
 
+      <div class="card-group">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Tails & Whiskers</h5>
+              <p class="card-text">Full Stack Ecommerce Web App</p>
+              <div class="card-text">
+                <a href="https://github.com/inetabliu"><i class="fas fa-link card-icon"></i></a>
+                <a href="https://github.com/inetabliu"><i class=" fab fa-github-square card-icon"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
 
-          <div class="container">
-            <h3>Tetris</h3>
-            <p>Vanilla Javascript, HTML & CSS game</p>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Tetris</h5>
+              <p class="card-text">Vanilla Javascript, HTML 5 & CSS browser game</p>
+              <div class="card-text">
+                <a href="https://github.com/inetabliu"><i class="fas fa-link card-icon"></i></a>
+                <a href="https://github.com/inetabliu"><i class=" fab fa-github-square card-icon"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
 
-          <div class="container">
-            <h3>Rick & Morty Character World</h3>
-            <p>React App</p>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Rick & Morty Character World</h5>
+              <p class="card-text">React App built using Public API</p>
+              <div class="card-text">
+                <a href="https://github.com/inetabliu"><i class="fas fa-link card-icon"></i></a>
+                <a href="https://github.com/inetabliu"><i class=" fab fa-github-square card-icon"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
 
-          <div class="container">
-            <h3>The Plant Dispatch</h3>
-            <p>Django React App</p>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">The Plant Dispatch</h5>
+              <p class="card-text">Plant catalogue and care application</p>
+              <div class="card-text">
+                <a href="https://github.com/inetabliu"><i class="fas fa-link card-icon"></i></a>
+                <a href="https://github.com/inetabliu"><i class=" fab fa-github-square card-icon"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="constact">
+    <!-- TECHNOLOGIES -->
+    <section id="technologies" class="container">
+      <div class="triangle-bottom-right"></div>
+      <h1>Technologies</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1><i class="devicon-bootstrap-plain"></i></h1>
+            <h1><i class="devicon-visualstudio-plain"></i></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-babel-plain"></i></h1>
+            <h1><i class="devicon-bulma-plain"></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-css3-plain-wordmark"></i></h1>
+            <h1><i class="devicon-express-original-wordmark"></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-figma-plain"></i></h1>
+            <h1><i class="devicon-git-plain-wordmark"></i></h1>
+          </div>
+
+
+
+          <div class="col">
+            <h1><i class="devicon-heroku-plain"></i></h1>
+            <h1><i class="devicon-javascript-plain"></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-mongodb-plain"></i></h1>
+            <h1><i class="devicon-nodejs-plain"></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-npm-original-wordmark"></i></h1>
+            <h1><i class="devicon-postgresql-plain"></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-python-plain"></i></h1>
+            <h1><i class="devicon-react-original"></i></h1>
+          </div>
+
+          <div class="col">
+            <h1><i class="devicon-sass-original"></i></h1>
+            <h1><i class="devicon-yarn-plain"></i></h1>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+    <!-- CONTACTS INFO -->
+    <section id="contact" class="container">
       <div class="triangle"></div>
       <h1 class="animate__animated animate__slideInDown">Contact</h1>
-      <div>
-        Let's connect
-        <a href="https://www.linkedin.com/in/ineta-bliu/"><i class="fab fa-linkedin"></i></a>
+      <div class="d-flex justify-content-around">
+        <div class="font-style">
+          Let's connect
+          <a href="https://www.linkedin.com/in/ineta-bliu/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="font-style">
+          Let's exchange ideas
+          <a href="mailto: ineta.bliu@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="font-style">
+          Let's collaborate
+          <a href="https://github.com/inetabliu"><i class=" fab fa-github-square"></i></a>
+        </div>
       </div>
-      <div>
-        Let's exchange ideas
-        <a href="mailto: ineta.bliu@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
-      <div>
-        Let's collaborate
-        <a href="mailto: ineta.bliu@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-
-
-      </div>
-
     </section>
 
 
