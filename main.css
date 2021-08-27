@@ -157,3 +157,11 @@ div.font-style {
   margin-top: 2.5%;
   text-align: center;
 }
+
+/* DARK MODE */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
