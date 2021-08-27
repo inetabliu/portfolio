@@ -12,7 +12,7 @@ h1, h3, h5 {
 }
 
 /* ALL PARAGRAPH TEXT */
-p, li, a, div.font-style, i {
+p, li, a, div.font-style, i , h4{
   font-family: 'Quicksand', sans-serif;
   color: #262f2a;
 }
@@ -53,7 +53,12 @@ h3 {
 /* NAVBAR */
 a.nav-link {
   color: #f8f5e2;
-  font-weight: bolder;
+}
+
+a.nav-link:hover {
+  color:#d6341b;
+  font-weight: bold;
+  
 }
 ul {
   list-style-type: none;
@@ -120,6 +125,10 @@ h5, p.card-text, i.card-icon {
   background: #f8f5e2;
 }
 
+div.card-body:hover {
+  background: #FAB948;
+}
+
 
 
 /* On mouse-over, add a deeper shadow */
@@ -128,3 +137,9 @@ h5, p.card-text, i.card-icon {
   filter: brightness(80%)
 }
 
+/* CONTACTS */
+div.font-style {
+  margin-bottom: 5%;
+  margin-top: 2.5%;
+  text-align: center;
+}
