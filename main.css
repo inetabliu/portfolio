@@ -52,7 +52,7 @@ h3 {
 }
 /* NAVBAR */
 a.nav-link {
-  color: #f8f5e2;
+  color: #f8f5e2 !important;
 }
 
 a.nav-link:hover {
