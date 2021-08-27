@@ -123,8 +123,8 @@ h5, p.card-text, i.card-icon {
 }
 
 a.card-link, a.contact-link {
-  text-decoration: none;
-  color: #262f2a;
+  text-decoration: none !important;
+  color: #262f2a !important;
 }
 
 a.contact-link:hover {
