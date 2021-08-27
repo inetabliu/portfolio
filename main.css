@@ -68,6 +68,7 @@ ul {
   background-color: #262f2a;
   display: flex;
   justify-content: space-evenly;
+  padding-right: 2rem;
 }
 
 li {
@@ -115,10 +116,19 @@ background-blend-mode: darken;
   text-align: center;
   flex: 0 1 calc(25% - 1em);
   margin: 2.5% 2.5% 0 0;
-
 }
+
 h5, p.card-text, i.card-icon {
   color: #262f2a;
+}
+
+a.card-link, a.contact-link {
+  text-decoration: none;
+  color: #262f2a;
+}
+
+a.contact-link:hover {
+  color: #d6341b;
 }
 
 .card-body {
@@ -127,6 +137,10 @@ h5, p.card-text, i.card-icon {
 
 div.card-body:hover {
   background: #FAB948;
+}
+
+div.link-logo {
+  margin-top: 10%;
 }
 
 
